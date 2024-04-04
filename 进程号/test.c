@@ -11,13 +11,12 @@ int main()
   //  }
     pid_t p = getpid();
     pid_t f = getppid();
-   // while(1)
-   // {
-   //     printf("process! pid: %d, ppid: %d\n",p,f);
-   //     sleep(1);
-   // }
-   //     printf("process! pid: %d, ppid: %d\n",p,f);
-   // 
-    printf("process! pid: %d, ppid: %d\n",p,f);
+     while(1)
+    {
+      printf("process! pid: %d, ppid: %d\n",p,f);
+      sleep(1);
+    }
+     printf("process! pid: %d, ppid: %d\n",p,f);
+    //printf("process! pid: %d, ppid: %d\n",p,f);
     return 0;
 }
